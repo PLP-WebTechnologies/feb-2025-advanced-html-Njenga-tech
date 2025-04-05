@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Advanced HTML5 Elements and Forms</title>
+</head>
+<body>
+
+    <!-- Ordered List with Roman Numerals -->
+    <h2>Topics to Learn</h2>
+    <ol type="I">
+        <li>HTML5 Multimedia</li>
+        <li>HTML5 Forms</li>
+        <li>Form Validation</li>
+        <li>Semantic Tags</li>
+        <li>Responsive Layout</li>
+    </ol>
+
+    <!-- External Image from Pexels -->
+    <h2>Sample Image</h2>
+    <img src="https://images.pexels.com/photos/681335/pexels-photo-681335.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Nature View" width="500">
+
+    <!-- Table with 5 Contacts -->
+    <h2>Contact List</h2>
+    <table border="1" cellpadding="10" cellspacing="0">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Daniel Njenga</td>
+                <td>Kirinyaga, Kenya</td>
+                <td>+254701234567</td>
+                <td>danielnjenga@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Brian Maina</td>
+                <td>Embu, Kenya</td>
+                <td>+254712345678</td>
+                <td>brianmaina@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Ali Hassan</td>
+                <td>Garissa, Kenya</td>
+                <td>+254723456789</td>
+                <td>alihassan@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Denson Kaluku</td>
+                <td>Kitui, Kenya</td>
+                <td>+254734567890</td>
+                <td>densonkaluku@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Mitchelle Wambui</td>
+                <td>Kirinyaga, Kenya</td>
+                <td>+254745678901</td>
+                <td>mitchellewambui@gmail.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="post">
+        <!-- Name -->
+        <label for="name">Full Name:</label><br>
+        <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+
+        <!-- Email -->
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password -->
+        <label for="password">Password:</label><br>
+        <input type="password" id="password" name="password" placeholder="Create a password" minlength="6" required><br><br>
+
+        <!-- Date of Birth -->
+        <label for="dob">Date of Birth:</label><br>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="course">Choose a Course:</label><br>
+        <select id="course" name="course" required>
+            <option value="">--Select--</option>
+            <option value="webdev">Web Development</option>
+            <option value="ai">Artificial Intelligence</option>
+            <option value="datasci">Data Science</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <p>Gender:</p>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label><br>
+
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br><br>
+
+        <!-- Checkboxes -->
+        <p>Skills:</p>
+        <input type="checkbox" id="html" name="skills" value="HTML">
+        <label for="html">HTML</label><br>
+
+        <input type="checkbox" id="css" name="skills" value="CSS">
+        <label for="css">CSS</label><br>
+
+        <input type="checkbox" id="js" name="skills" value="JavaScript">
+        <label for="js">JavaScript</label><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+    <!-- Audio and Video Section -->
+    <h2>Multimedia Section</h2>
+
+    <!-- Audio -->
+    <p>Listen to Background Music:</p>
+    <audio controls>
+        <source src="song.mp3.mp3" type="audio/mp3">
+        Your browser does not support the audio element.
+    </audio><br><br>
+
+    <p>Watch This Video:</p>
+<video width="500" controls>
+    <source src="https://videos.pexels.com/video-files/31404084/13398592_360_640_30fps.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+</video>
+
+      
+    
+</body>
+</html>
